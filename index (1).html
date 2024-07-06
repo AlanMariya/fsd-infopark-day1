@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>Basic Calculator</h1>
+    <div id="container">
+    <!-- <p id="text">This is a function for Event</p>
+    <button onclick="changeText()">click here</button>
+    <script>
+        function changeText(){
+           document.getElementById("text").innerHTML="The text has been changed";
+        } -->
+    <!-- </script> -->
+    <label for="number 1">Enter the first number</label> &nbsp; &nbsp;
+    <input type="number" name="" id="num1">
+    <br><br>
+    <label for="number2">Enter a second number</label> &nbsp;
+    <input type="number" id="num2">
+    <br><br>
+    <!-- <button onClick="basicCalc()">Multiply</button>
+    <p id="result"><input type="number"></p> -->
+   <button onClick="basicCalc()">Calculate</button>
+   <p id="result"></p>
+</div>
+    <script>
+//         function basicCalc(){
+//             var num1=parseFloat(document.getElementById("num1").value)
+//             var num2=parseFloat(document.getElementById("num2").value)
+//             var product=num1*num2;
+//             // window.alert("The total is"+product)
+//                 document.getElementById('result').innerHTML=product;
+// T
+//         }
+
+// subraction
+// function basicCalc(){
+//     var num1=parseFloat(document.getElementById("num1").value)
+//     var num2=parseFloat(document.getElementById("num2").value)
+//     var difference = num1-num2;
+//     window.alert("The difference is "+difference)
+
+// }
+
+// function basicCalc(){
+//     var num1=parseFloat(document.getElementById("num1").value)
+//     var num2=parseFloat(document.getElementById("num2").value)
+//     var product = num1+num2;
+//     window.alert("The answer is "+product)
+
+
+// }
+
+function basicCalc(){
+    var num1=parseFloat(document.getElementById("num1").value)
+    var num2=parseFloat(document.getElementById("num2").value)
+    var quotient = num1/num2;
+    window.alert("The answer is "+quotient)
+
+
+}
+
+    </script>
+</body>
+</html>
